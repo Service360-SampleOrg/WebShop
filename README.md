@@ -25,6 +25,7 @@ Frontend|Tier1|Prod|Web|Customers,Orders,Payments
 - AWS Lambda: backend execution env
 - AWS API Gateway: main entry point
 - Serverless: deployment
+- GithubActions: CI tooling
 
 ##### Links
 

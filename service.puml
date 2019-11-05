@@ -1,0 +1,40 @@
+' WebShop
+@startuml
+
+actor Customer
+
+cloud CDN {
+}
+
+cloud ImageStorage {
+}
+
+node WebShop {
+}
+
+node PaymentService {
+}
+
+node OrderService {
+}
+
+node CustomerService {
+}
+
+node CatalogService {
+}
+
+node CartService {
+}
+
+Customer --> CDN
+CDN --> WebShop
+
+WebShop --> PaymentService
+WebShop --> OrderService
+WebShop --> CustomerService
+WebShop --> CatalogService
+WebShop --> CartService
+WebShop --> ImageStorage
+
+@enduml
