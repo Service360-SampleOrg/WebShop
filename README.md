@@ -7,24 +7,30 @@ responsible for server-side rendering and initial request routing.
 
 Owner|Tier|Status|Landscape|Contexts
 ---|---|---|---|---
-Frontend|Tier1|Prod|Web|Customers,Orders,Payments
+FrontendTeam|Tier1|Prod|Web|Customers,Orders,Payments,Catalog
 
 ##### Environments
 
-- Production AWS account: 1234567890
-- Production logs: https://...
+Production:
 
+- URL: https://...
+- AWS account: 1234567890
+- Logs: https://...
+- Dashboard: https://...
 
+Staging:
 
-- Staging AWS account: 0987654321
-- Staging logs: https://...
+- URL: https://...
+- AWS account: 0987654321
+- Logs: https://...
+- Dashboard: https://...
 
 ##### Tech
 
 - React 16.x: frontend implementation framework
 - NodeJS 10.x: backend implementation language
 - AWS Lambda: backend execution env
-- AWS API Gateway: main entry point
+- AWS API Gateway: main backend entry point
 - Serverless: deployment
 - GithubActions: CI tooling
 
