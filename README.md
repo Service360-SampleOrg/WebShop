@@ -5,9 +5,9 @@ Application responsible for serving our cool WebShop (tm) to end customers.
 Consists of SPA Frontend application and also thin layer of backend
 responsible for server-side rendering and initial request routing.
 
-Owner|Tier|Status|Landscape|Contexts
----|---|---|---|---
-FrontendTeam|Tier1|Prod|Web|Customers,Orders,Payments,Catalog
+Owner|Tier|Status|Contexts
+---|---|---|---
+FrontendTeam|Tier1|Prod|Web,Customers,Orders,Payments,Catalog
 
 ##### Environments
 
